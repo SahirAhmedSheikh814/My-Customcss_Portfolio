@@ -1,0 +1,29 @@
+.header-container {
+  margin-bottom: 180px;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.s-icon1 {
+  font-size: 30px;
+  color: palevioletred;
+}
+.s-icon2 {
+  font-size: 30px;
+  color: blue;
+}
+.s-icon3 {
+  font-size: 30px;
+  color: blue;
+}
+
+@media screen and (min-width: 0px) and (max-width: 750px) {
+  .header-container {
+    margin-bottom: 93%;
+  }
+}
